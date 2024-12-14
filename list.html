@@ -1,0 +1,47 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<br><a href="Sejarah muzik.html"target="contents">
+Sejarah Muzik</a></br>
+<p><a href="Tips&Tenik.html"target="contents">
+Tips&Tenik</a></p>
+<p><a href="Tokoh Muzik.html"target="contents">
+Tokoh Muzik</a></p>
+<p><a href="Gambar-gambar alat muzik.html"target="contents">
+Gambar-gambar alat muzik</a></p>
+<br></br>
+
+
+<p>Yang manakah alat muzik kegemaran anda?</p>
+<select>
+<option value="Violin">Violin</option>
+<option value="Celo">Celo</option>
+<option value="Piano">Piano</option>
+<option value="Guitar">Guitar</option>
+</select>
+
+
+<form method='post'>
+<br>
+Sebab:<br/>
+<textarea name='komen'id='komen'>
+</textarea><br/>
+<input type='hidden'name="articleid"
+id='articleid' value='<? echo$_GET["id"];?>'/>
+<br>
+<input type='submit'value='Hantar'/>
+</form>
+
+<Blog & Komuniti Pemuzik>
+<section id="komuniti">
+<h2>Blog & Komuniti Pemuzik</h2>
+<p>Tempat untuk berkongsi pengalaman dan berdiskusi dengan pemuzik lain. Tinggalkan komen anda atau kongsi artikel yang menarik.</p>
+<form action="#" method="POST">
+<label for="komen">Tinggalkan Komen:</label><br>
+<textarea id="komen" name="komen" rows="4" cols="50"></textarea><br>
+<input type="submit" value="Hantar">
+</form>
+</body>
+</html>
